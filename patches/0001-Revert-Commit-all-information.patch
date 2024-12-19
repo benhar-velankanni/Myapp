@@ -1,0 +1,64 @@
+From 9ee6a5a65fb0194b532b6f9aa898de71348d6e93 Mon Sep 17 00:00:00 2001
+From: benhar-velankanni <benhar.velankanni@relavantz.com>
+Date: Thu, 19 Dec 2024 10:39:19 +0530
+Subject: [PATCH] Revert " Commit all information"
+
+This reverts commit 89da48742e239e597f9a9674ecadb5366157a219.
+---
+ .gitignore                |  3 ---
+ Index.htm                 | 12 ------------
+ Needs_SecretFile.bmp      |  0
+ New OpenDocument Text.txt |  0
+ README.md                 |  0
+ Relevantz_SecretFile.bmp  |  0
+ 6 files changed, 15 deletions(-)
+ delete mode 100644 .gitignore
+ delete mode 100644 Index.htm
+ delete mode 100644 Needs_SecretFile.bmp
+ delete mode 100644 New OpenDocument Text.txt
+ delete mode 100644 README.md
+ delete mode 100644 Relevantz_SecretFile.bmp
+
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+index 1bb2872..0000000
+--- a/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-#Remove text files
+-
+-*.txt
+diff --git a/Index.htm b/Index.htm
+deleted file mode 100644
+index 27cb37d..0000000
+--- a/Index.htm
++++ /dev/null
+@@ -1,12 +0,0 @@
+-<HTML>
+-<HEAD></HEAD>
+-<BODY>
+-<div> <h1> Welcome to Relevatz Rural Impact Count. </h1>
+-
+-<h1>We’re Relevantz Having started as a software product company, product engineering is deeply ingrained in our DNA.</h1>
+-<h1>We’re Relevantz With 27+ years of experience in delivering relevant technology solutions </h1>
+-
+-</div>
+-
+-</BODY>
+-</HTML>
+\ No newline at end of file
+diff --git a/Needs_SecretFile.bmp b/Needs_SecretFile.bmp
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/New OpenDocument Text.txt b/New OpenDocument Text.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/Relevantz_SecretFile.bmp b/Relevantz_SecretFile.bmp
+deleted file mode 100644
+index e69de29..0000000
+-- 
+2.47.1.windows.1
+
